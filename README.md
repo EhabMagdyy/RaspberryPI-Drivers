@@ -1,4 +1,16 @@
 # Raspberry pi Drivers
+### 4.Servo Motor
+
+This script controls a **servo motor** using Raspberry Pi's **GPIO pin 12** (BCM) with **PWM**.
+
+#### Requirements
+
+- **Raspberry Pi**  
+- **RPi.GPIO** (`pip install RPi.GPIO`)  
+- **Servo motor** (connected to GPIO 12)
+
+---
+
 ### 5.Systemd
 To set up and manage the `sayHello.service`, run the following commands:
 ```bash
