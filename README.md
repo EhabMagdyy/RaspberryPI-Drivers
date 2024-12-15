@@ -1,13 +1,18 @@
 # Raspberry pi Drivers
+
+### 3.PWM
+This script controls the **brightness of an LED** using Raspberry Pi's **GPIO pin 12** (BCM) with **PWM**.
+#### Dependancies
+- **RPi.GPIO** (`pip install RPi.GPIO`)  
+
+---
+
 ### 4.Servo Motor
 
 This script controls a **servo motor** using Raspberry Pi's **GPIO pin 12** (BCM) with **PWM**.
 
-#### Requirements
-
-- **Raspberry Pi**  
+#### Dependancies
 - **RPi.GPIO** (`pip install RPi.GPIO`)  
-- **Servo motor** (connected to GPIO 12)
 
 ---
 
