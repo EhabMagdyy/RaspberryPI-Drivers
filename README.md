@@ -36,7 +36,13 @@ sudo systemctl status sayHello.service
 
 ### 6.UART
 
-#### Communication between Raspberry pi on (ttyS0) and my laptop on (ttyUSB0)
+#### Communication between Raspberry pi on (ttyS0) and my laptop on (ttyUSB0) via USB To TTL
+
+> Enable Serial of Raspberry:
+```bash
+sudo raspi-config
+```
+Go to Interfacing Options → Serial and enable it.
 
 > To download putty, for showing received messages on specified serial port:
 ```bash
@@ -46,3 +52,15 @@ sudo apt install putty
 
 > output
 ![Screenshot from 2024-12-12 22-20-03](https://github.com/user-attachments/assets/ce1e1936-f403-4878-b082-764b1779c010)
+
+---
+
+### 8.I2C
+
+#### Communication between Raspberry pi and ESP32
+
+> Enable Serial of Raspberry:
+```bash
+sudo raspi-config
+```
+Go to Interfacing Options → I2C and enable it.
