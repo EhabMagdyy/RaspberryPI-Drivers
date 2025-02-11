@@ -67,3 +67,16 @@ Go to Interfacing Options → I2C and enable it.
 
 > output
 ![Screenshot from 2024-12-14 04-38-46](https://github.com/user-attachments/assets/9a2f2799-dea9-42a7-a225-b803ac3d6b33)
+
+---
+
+### 9.TCP
+
+#### Port Communication 
+
+```bash
+nc -lvp <portNumber>
+```
+
+> output
+![Image](https://github.com/user-attachments/assets/bb664fdd-5daa-49f3-bee6-17bb875d2125)
