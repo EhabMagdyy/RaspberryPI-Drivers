@@ -78,5 +78,15 @@ Go to Interfacing Options → I2C and enable it.
 nc -lvp <portNumber>
 ```
 
-> output
-![Image](https://github.com/user-attachments/assets/bb664fdd-5daa-49f3-bee6-17bb875d2125)
+> ![Image](https://github.com/user-attachments/assets/bb664fdd-5daa-49f3-bee6-17bb875d2125)
+
+---
+
+### 10.WebServer
+
+```bash
+# in your browser:
+<raspberry_ip_address>:<port_number>
+```
+
+> ![Image](https://github.com/user-attachments/assets/6adb8738-3cc6-4ddc-bf67-1659814cb387)
